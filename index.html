@@ -8,24 +8,27 @@
 </head>
 
 <body>
-    <script "scripts/scripy.js"></script>
+    <script "scripts/script.js"></script>
 
         <nav>
-            <div class="span">
-               <div class="logo">
+            <div class="nav__list">
+                <div class="logo">
                    <h1>GADG<span>ET</span></h1>
-               </div> 
-
-               <div class="nav_list">
-                   <div class="cart">
-                        <h2>cart</h2>
-                        <span class="total">0</span>
-                   </div>
-               </div>
+                </div> 
+                <div class="cart">
+                    <h2>cart <span class="total">0</span></h2>
+                </div>
             </div>
         </nav>
     
         <main>
+
+            <!-- Sorting -->
+        <div class="sort">
+            <button class="sort__name">Sort by name</button>
+            <button class="sort__price">Sort by price</button>
+        </div>
+
     <!-- products -->
                 <!-- 1 product -->
             <div class="product">
@@ -38,6 +41,7 @@
                         <div class="price">$648</div>
                     </div>
             </div>
+
                  <!-- 2 product -->
             <div class="product">
                 <div class="img">
@@ -50,6 +54,7 @@
                     </div>
                 </div>
             </div>
+
                 <!-- 3 product -->
             <div class="product">
                     <div class="img">
@@ -166,8 +171,18 @@
                         </div>
                     </div>
                 </div>
+
     <!-- products -->
+
         </main>
+
+    <!-- Footer -->
+            <!-- <footer>
+                <div class="contact-info">
+                    <h3>Contact us</h3>
+                    <h3>Leave us some feedback</h3>
+                </div>
+            </footer> -->
 
 </body>
 </html>
